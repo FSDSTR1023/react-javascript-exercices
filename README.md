@@ -6,7 +6,8 @@
 2. Crear una rama y acceder a ella ` git checkout -b nombre-de-la-nueva-rama `
 3. `npm install`
 4. `npm run dev`
-5. Hacer los ejercicios. Editar los componentes dentro de la carpeta `components`
+5. Hacer los ejercicios.
+   Editar los componentes dentro de la carpeta `components`. Las instrucciones están en los archivos
   - 20 ejercicios de arrays con react
   - 24 ejercicios de objetos con react
 
