@@ -1,15 +1,13 @@
-# Calculadora React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Ejercicios de JavaScript en REACT
 
 ## Primeros pasos:
 
 1. Clonar repo
-2. npm install
-3. npm run dev
-# react-javascript-exercices
+2. Crear una rama y acceder a ella ` git checkout -b nombre-de-la-nueva-rama `
+3. `npm install`
+4. `npm run dev`
+5. Hacer los ejercicios
+
+## react-javascript-exercices
+
+Soluciones en el archivo PDF
