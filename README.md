@@ -10,4 +10,4 @@
 
 ## react-javascript-exercices
 
-Soluciones en el archivo PDF
+[Soluciones en el archivo PDF](https://github.com/FSDSTR1023/react-javascript-exercices/blob/main/SOLUCIONES_ejercicios_react_javascript.pdf)
