@@ -9,7 +9,7 @@ export const MetodoFilter = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <p>{numeros.filter((numero) => numero % 2 === 0).join(', ')}</p>
     </>
   );
 };

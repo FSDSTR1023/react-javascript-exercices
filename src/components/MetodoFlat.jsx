@@ -9,7 +9,7 @@ export const MetodoFlat = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <p>{arr.flat().join(', ')}</p>
     </>
   );
 };

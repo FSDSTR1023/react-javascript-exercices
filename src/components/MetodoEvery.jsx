@@ -7,9 +7,10 @@ mayores que 10 utilizando el método every().
 export const MetodoEvery = () => {
   const numeros = [11, 12, 13, 14];
 
+
   return (
     <>
-      Escribe tu solución aquí
+      <p>{numeros.every(numero => numero > 10) ? "Todos > 10" : "Hay números menores que 10"}</p>
     </>
   );
 };

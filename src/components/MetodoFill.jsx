@@ -9,7 +9,7 @@ export const MetodoFill = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <p>{numeros.fill(0)}</p>
     </>
   );
 };

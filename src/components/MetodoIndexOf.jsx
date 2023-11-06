@@ -9,7 +9,7 @@ export const MetodoIndexOf = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <p>{numeros.indexOf(5)}</p>
     </>
   );
 };

@@ -9,7 +9,7 @@ export const MetodoMap = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>{amigos.map((amigos)  => <li>{amigos}</li>)}</ul>
     </>
   );
 };
