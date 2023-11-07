@@ -16,7 +16,8 @@ export const MetodoPushPop = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <p>{numeros.push(5)}</p>
+      <p>{numeros.pop()}</p>
     </>
   );
 };

@@ -9,7 +9,7 @@ export const MetodoSome = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <p>{numeros.some((x) => x > 10) ? 'true' : 'false'}</p>
     </>
   );
 };

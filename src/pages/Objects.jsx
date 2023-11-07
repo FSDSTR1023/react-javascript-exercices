@@ -60,3 +60,4 @@ export const Objects = () => {
         </div>
       );
 }
+// Component está en mayúscula porque lo que se está pasando es un componente (<ObjectEjercicio24 />)
