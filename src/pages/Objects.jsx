@@ -46,10 +46,10 @@ export const Objects = () => {
         {id: "o18", title: "Objeto como Estado", component: <ObjectEjercicio18 />},
         {id: "o19", title: "Objetos Constantes", component: <ObjectEjercicio19 />},
         {id: "o20", title: "Comparar Objetos", component: <ObjectEjercicio20 />},
-        {id: "o20", title: "Método Object.values():", component: <ObjectEjercicio21 />},
-        {id: "o20", title: "Método Object.entries()", component: <ObjectEjercicio22 />},
-        {id: "o20", title: "Método Object.freeze()", component: <ObjectEjercicio23 />},
-        {id: "o20", title: "Método Object.seal()", component: <ObjectEjercicio24 />},
+        {id: "o21", title: "Método Object.values():", component: <ObjectEjercicio21 />},
+        {id: "o22", title: "Método Object.entries()", component: <ObjectEjercicio22 />},
+        {id: "o23", title: "Método Object.freeze()", component: <ObjectEjercicio23 />},
+        {id: "o24", title: "Método Object.seal()", component: <ObjectEjercicio24 />},
       ]
       
       return (

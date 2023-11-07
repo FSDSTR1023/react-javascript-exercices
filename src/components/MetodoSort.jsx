@@ -9,7 +9,9 @@ export const MetodoSort = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {palabras.sort().map((fruit, ninja) => (<li key={ninja}>{fruit}</li>))}
+      </ul>
     </>
   );
 };

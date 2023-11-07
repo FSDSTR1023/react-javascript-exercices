@@ -10,13 +10,16 @@ export const MetodoPushPop = () => {
 
   // Agregar un elemento
   // Escribe código
-
+  const numerosPush = numeros.push('cacahuete');
   // Eliminar el último elemento
   // Escribe código
+  const numerosPop = numeros.pop();
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {numeros.map((number, i) => (<li key={i}>{number}</li>))}
+      </ul>
     </>
   );
 };

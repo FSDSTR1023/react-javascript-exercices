@@ -9,7 +9,7 @@ export const MetodoSome = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      {numeros.some(number => number > 10) ? 'Hay números mayores de 10' : 'No hay mayores de 10'}
     </>
   );
 };
