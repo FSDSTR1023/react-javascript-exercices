@@ -6,7 +6,7 @@ import Reloj from "./pages/Reloj";
 
 function App() {
   
-  const [tab, setTab] = useState("reloj");
+  const [tab, setTab] = useState("objects");
   // tab: encapsulamos datos
   // setTab: funcion para actualizar los datos de la constante tab
 

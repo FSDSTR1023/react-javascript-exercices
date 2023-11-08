@@ -5,11 +5,19 @@ renderiza el objeto actualizado.
 */
 
 export const ObjectEjercicio4 = () => {
-    // Escribe tu solución
+  const objeto = {
+    a: 1,
+    b: 2,
+    c: 3
+  }
+
+  delete objeto.a
     
     return (
       <>
-        Escribe tu solución
+        <ul>
+          {Object.keys(objeto).map((elemento) => <li>{elemento}</li>)}
+        </ul>
       </>
     );
   };

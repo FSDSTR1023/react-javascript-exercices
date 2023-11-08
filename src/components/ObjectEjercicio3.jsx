@@ -5,11 +5,18 @@ renderiza el objeto actualizado.
 */
 
 export const ObjectEjercicio3 = () => {
-    // Escribe tu solución
+    const objeto = {
+      a: 1,
+      b: 2
+    }
+
+    objeto.c = 3;
     
     return (
       <>
-        Escribe tu solución
+        <ul>
+          {Object.keys(objeto).map((elemento) => <li>{elemento}</li>)}
+        </ul>
       </>
     );
   };

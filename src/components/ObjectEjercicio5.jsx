@@ -5,11 +5,21 @@ accede a una propiedad anidada.
 */
 
 export const ObjectEjercicio5 = () => {
-    // Escribe tu solución
+  const objeto = {
+    a: 1,
+    b: 2,
+    c: 3,
+    d: {
+      d1: 4,
+      d2: 5
+    }
+  }
     
+
+
     return (
       <>
-        Escribe tu solución
+        <p>{objeto.d.d1}</p>
       </>
     );
   };

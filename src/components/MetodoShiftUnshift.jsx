@@ -20,7 +20,6 @@ export const MetodoShiftUnshift = () => {
   return (
     <>
       <ul>
-        
        { numeros.map((numero) => <li>{numero}</li>)}
       </ul>
     </>

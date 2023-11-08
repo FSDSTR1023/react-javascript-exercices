@@ -5,11 +5,26 @@ solo los objetos que cumplan una condición específica.
 */
 
 export const ObjectEjercicio8 = () => {
-    // Escribe tu solución
-    
+  let personas = [
+    {
+      nombre: "Carlos",
+      edad: 37,
+      ciudad: "San José"
+    },
+    {
+      nombre: "Alexis",
+      edad: 37,
+      ciudad: "Cancún"
+    },
+    {
+      nombre: "Peter",
+      edad: 38,
+      ciudad: "Berna"
+    },
+  ]    
     return (
       <>
-        Escribe tu solución
+        <p>{personas.filter(persona => persona.ciudad === 'Berna').map((persona) => (<li>{persona.ciudad}</li>))}</p>
       </>
     );
   };
