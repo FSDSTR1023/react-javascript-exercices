@@ -4,11 +4,16 @@ Crea un objeto y utiliza Object.entries() para renderizar una lista con las entr
 */
 
 export const ObjectEjercicio22 = () => {
-    // Escribe tu solución
+  const coche = {
+    marca: 'Citroën',
+    modelo: 'C3',
+    año: 2015,
+    color: 'blanco',
+  }
     
     return (
       <>
-        Escribe tu solución
+        <ul>{Object.entries(coche).map((element) => <li>{element}</li>)}</ul>
       </>
     );
   };

@@ -5,7 +5,15 @@ y verifica si puedes agregar una nueva propiedad o no.
 */
 
 export const ObjectEjercicio24 = () => {
-    // Escribe tu solución
+  const objeto = {
+    a: 1,
+    b: 2,
+    c: 3
+  };
+
+  Object.seal(objeto);
+
+  
     
     return (
       <>

@@ -4,11 +4,19 @@ Desestructura un objeto directamente en los parámetros de una función.
 */
 
 export const ObjectEjercicio16 = () => {
-    // Escribe tu solución
+
+    const persona = {
+      nombre: "Shirley", 
+      ciudad: "Los Angeles"
+    }
+
+    const saludo = ({nombre, ciudad}) => {
+      return "Hola " + nombre + " estás en " + ciudad ;
+    }
     
     return (
       <>
-        Escribe tu solución
+        <p>{saludo(persona)}</p>
       </>
     );
   };

@@ -5,11 +5,16 @@ y accede a sus propiedades en el componente.
 */
 
 export const ObjectEjercicio19 = () => {
-    // Escribe tu solución
+    
+    const PERSONA = {
+      nombre: "Shirley", 
+      cabello: "café", 
+      ojos: "café"
+    }
     
     return (
       <>
-        Escribe tu solución
+        <p>{PERSONA.nombre}, {PERSONA.cabello}</p>
       </>
     );
   };

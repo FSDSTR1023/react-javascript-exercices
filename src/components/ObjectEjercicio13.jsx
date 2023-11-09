@@ -5,11 +5,19 @@ específica utilizando `hasOwnProperty()`.
 */
 
 export const ObjectEjercicio13 = () => {
-    // Escribe tu solución
+  const coche = {
+    marca: 'Citroën',
+    modelo: 'C3',
+    año: 2015,
+    color: 'blanco',
+    kilómetros: 50000,
+    puertas: 4,
+  }
+
     
     return (
       <>
-        Escribe tu solución
+        <p>{coche.hasOwnProperty("color") ? "true" : "false"}</p>
       </>
     );
   };

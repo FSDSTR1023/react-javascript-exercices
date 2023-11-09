@@ -5,12 +5,21 @@ y verifica si el objeto es modificable o no.
 */
 
 export const ObjectEjercicio23 = () => {
-    // Escribe tu solución
+    const object = {
+      number: 35
+    };
+
+    Object.freeze(object);
+
+    // object.number = 79;
+
+   
     
     return (
       <>
-        Escribe tu solución
+        {/* <p>{object.number}</p> */}
       </>
     );
   };
 
+// el objeto ya no es modificable

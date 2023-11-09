@@ -4,12 +4,16 @@ Crea un objeto y utiliza Object.values() para renderizar una lista con los valor
 */
 
 export const ObjectEjercicio21 = () => {
-    // Escribe tu solución
+  const coche = {
+    marca: 'Citroën',
+    modelo: 'C3',
+    año: 2015,
+    color: 'blanco',
+  }
     
     return (
       <>
-        Escribe tu solución
+        <ul>{Object.values(coche).map((elemento) => <li>{elemento}</li>)}</ul>
       </>
     );
   };
-

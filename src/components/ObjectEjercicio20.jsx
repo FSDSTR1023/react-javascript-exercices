@@ -4,11 +4,13 @@ Crea un objeto con un método y llama a ese método en un componente.
 */
 
 export const ObjectEjercicio20 = () => {
-    // Escribe tu solución
+    const object = {
+      mensaje: () => "Buenos días!"
+    }
     
     return (
       <>
-        Escribe tu solución
+        <p>{object.mensaje()}</p>
       </>
     );
   };
