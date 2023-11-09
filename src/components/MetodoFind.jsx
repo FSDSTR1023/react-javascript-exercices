@@ -9,7 +9,7 @@ export const MetodoFind = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      Primer número mayor que 10: {numeros.find((number)=>number>10)}
     </>
   );
 };
