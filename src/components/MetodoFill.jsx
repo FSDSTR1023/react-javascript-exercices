@@ -9,7 +9,7 @@ export const MetodoFill = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      Array final: [{numeros.fill(0).map((number)=> number+',')}]
     </>
   );
 };
