@@ -10,13 +10,20 @@ export const MetodoShiftUnshift = () => {
 
   // Eliminar el primer elemento
   // Escribe código
+  numeros.shift();
 
   // Agregar un elemento al inicio
   // Escribe código
+  numeros.unshift(9);
 
   return (
     <>
-      Escribe tu solución aquí
+      Array final:
+      <ul>
+        {
+          numeros.map((number)=> <li>{number}</li>)
+        }
+      </ul>
     </>
   );
 };
