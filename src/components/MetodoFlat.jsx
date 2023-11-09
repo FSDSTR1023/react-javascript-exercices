@@ -9,7 +9,12 @@ export const MetodoFlat = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      Matriz final: 
+      <ul>
+        {
+          arr.flat().map((number)=> <li>{number}</li>)
+        }
+      </ul>
     </>
   );
 };
