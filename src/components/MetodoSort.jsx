@@ -9,7 +9,12 @@ export const MetodoSort = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+    Lista ordenada alfabéticamente:
+    <ul>
+      {
+        palabras.sort().map((word)=> <li>{word}</li>)
+      }
+    </ul>
     </>
   );
 };
