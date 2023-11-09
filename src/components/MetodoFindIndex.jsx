@@ -9,7 +9,7 @@ export const MetodoFindIndex = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      Índice del primer número mayor que 10: {numeros.findIndex((number)=>number>10)}
     </>
   );
 };
