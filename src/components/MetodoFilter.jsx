@@ -9,7 +9,12 @@ export const MetodoFilter = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      Números pares:
+      <ul>
+        {
+          numeros.filter((number)=>number%2==0).map((number)=> <li>{number}</li>)
+        }
+      </ul>
     </>
   );
 };
