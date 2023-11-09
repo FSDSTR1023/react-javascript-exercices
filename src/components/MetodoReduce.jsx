@@ -8,7 +8,7 @@ export const MetodoReduce = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      Suma: {numeros.reduce((number, resultado)=>number+resultado)}
     </>
   );
 };
