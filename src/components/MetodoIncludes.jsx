@@ -8,7 +8,7 @@ export const MetodoIncludes = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      El array {(numeros.includes(5))? "incluye":"no incluye"} el número 5
     </>
   );
 };
