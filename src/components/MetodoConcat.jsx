@@ -10,7 +10,11 @@ export const MetodoConcat = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {
+          arr1.concat(arr2).map((number)=> <li>{number}</li>)
+        }
+      </ul>
     </>
   );
 };
