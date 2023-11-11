@@ -9,7 +9,9 @@ export const MetodoFill = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {numeros.fill(0).map((num, i) => <li key={i}>{num}</li>)}
+      </ul>
     </>
   );
 };

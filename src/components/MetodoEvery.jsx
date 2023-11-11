@@ -9,7 +9,7 @@ export const MetodoEvery = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <p>{numeros.every(num => num > 10) ? 'Todos los numeros son mayores' : 'No son mayores'}</p>
     </>
   );
 };

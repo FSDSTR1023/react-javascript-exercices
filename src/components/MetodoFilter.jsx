@@ -9,7 +9,10 @@ export const MetodoFilter = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {numeros.filter(num => num % 2 === 0).map((num, i) => < li key={i} > {num}</li>)}
+
+      </ul >
     </>
   );
 };

@@ -7,7 +7,8 @@ mostrando el resultado en una lista.
 
 export const MetodoShiftUnshift = () => {
   const numeros = [0, 1, 2, 3, 4];
-
+  numeros.shift()
+  numeros.unshift(10)
   // Eliminar el primer elemento
   // Escribe código
 
@@ -16,7 +17,9 @@ export const MetodoShiftUnshift = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {numeros.map((num, i) => <li key={i}>{num}</li>)}
+      </ul>
     </>
   );
 };

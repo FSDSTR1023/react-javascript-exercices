@@ -25,38 +25,38 @@ import { ObjectEjercicio23 } from "../components/ObjectEjercicio23";
 import { ObjectEjercicio24 } from "../components/ObjectEjercicio24";
 
 export const Objects = () => {
-    const ejercicios = [
-        {id: "o1", title: "Renderizar Propiedades", component: <ObjectEjercicio1 />},
-        {id: "o2", title: "Iterar sobre Propiedades", component: <ObjectEjercicio2 />},
-        {id: "o3", title: "Agregar Propiedades", component: <ObjectEjercicio3 />},
-        {id: "o4", title: "Eliminar Propiedades", component: <ObjectEjercicio4 />},
-        {id: "o5", title: "Acceder a Propiedades Anidadas", component: <ObjectEjercicio5 />},
-        {id: "o6", title: "Modificar Propiedades Anidadas", component: <ObjectEjercicio6 />},
-        {id: "o7", title: "Objetos dentro de Arrays", component: <ObjectEjercicio7 />},
-        {id: "o8", title: "Filtrar Objetos", component: <ObjectEjercicio8 />},
-        {id: "o9", title: "Ordenar Objetos", component: <ObjectEjercicio9 />},
-        {id: "o10", title: "Actualizar Propiedades", component: <ObjectEjercicio10 />},
-        {id: "o11", title: "Asignación de Propiedades", component: <ObjectEjercicio11 />},
-        {id: "o12", title: "Operador Spread", component: <ObjectEjercicio12 />},
-        {id: "o13", title: "Comprobar Propiedades", component: <ObjectEjercicio13 />},
-        {id: "o14", title: "Objetos como Props", component: <ObjectEjercicio14 />},
-        {id: "o15", title: "Desestructuración de Objetos", component: <ObjectEjercicio15 />},
-        {id: "o16", title: "Desestructuración en Parámetros", component: <ObjectEjercicio16 />},
-        {id: "o17", title: "Comparar Objetos", component: <ObjectEjercicio17 />},
-        {id: "o18", title: "Objeto como Estado", component: <ObjectEjercicio18 />},
-        {id: "o19", title: "Objetos Constantes", component: <ObjectEjercicio19 />},
-        {id: "o20", title: "Comparar Objetos", component: <ObjectEjercicio20 />},
-        {id: "o20", title: "Método Object.values():", component: <ObjectEjercicio21 />},
-        {id: "o20", title: "Método Object.entries()", component: <ObjectEjercicio22 />},
-        {id: "o20", title: "Método Object.freeze()", component: <ObjectEjercicio23 />},
-        {id: "o20", title: "Método Object.seal()", component: <ObjectEjercicio24 />},
-      ]
-      
-      return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-center justify-center">
-          {ejercicios.map(ej => (
-            <Card key={ej.id} id={ej.id} title={ej.title} Component={ej.component} />
-          ))}
-        </div>
-      );
+  const ejercicios = [
+    { id: "o1", title: "Renderizar Propiedades", component: <ObjectEjercicio1 /> },
+    { id: "o2", title: "Iterar sobre Propiedades", component: <ObjectEjercicio2 /> },
+    { id: "o3", title: "Agregar Propiedades", component: <ObjectEjercicio3 /> },
+    { id: "o4", title: "Eliminar Propiedades", component: <ObjectEjercicio4 /> },
+    { id: "o5", title: "Acceder a Propiedades Anidadas", component: <ObjectEjercicio5 /> },
+    { id: "o6", title: "Modificar Propiedades Anidadas", component: <ObjectEjercicio6 /> },
+    { id: "o7", title: "Objetos dentro de Arrays", component: <ObjectEjercicio7 /> },
+    { id: "o8", title: "Filtrar Objetos", component: <ObjectEjercicio8 /> },
+    { id: "o9", title: "Ordenar Objetos", component: <ObjectEjercicio9 /> },
+    { id: "o10", title: "Actualizar Propiedades", component: <ObjectEjercicio10 /> },
+    { id: "o11", title: "Asignación de Propiedades", component: <ObjectEjercicio11 /> },
+    { id: "o12", title: "Operador Spread", component: <ObjectEjercicio12 /> },
+    { id: "o13", title: "Comprobar Propiedades", component: <ObjectEjercicio13 /> },
+    { id: "o14", title: "Objetos como Props", component: <ObjectEjercicio14 /> },
+    { id: "o15", title: "Desestructuración de Objetos", component: <ObjectEjercicio15 /> },
+    { id: "o16", title: "Desestructuración en Parámetros", component: <ObjectEjercicio16 /> },
+    { id: "o17", title: "Comparar Objetos", component: <ObjectEjercicio17 /> },
+    { id: "o18", title: "Objeto como Estado", component: <ObjectEjercicio18 /> },
+    { id: "o19", title: "Objetos Constantes", component: <ObjectEjercicio19 /> },
+    { id: "o20", title: "Comparar Objetos", component: <ObjectEjercicio20 /> },
+    { id: "o21", title: "Método Object.values():", component: <ObjectEjercicio21 /> },
+    { id: "o22", title: "Método Object.entries()", component: <ObjectEjercicio22 /> },
+    { id: "o23", title: "Método Object.freeze()", component: <ObjectEjercicio23 /> },
+    { id: "o24", title: "Método Object.seal()", component: <ObjectEjercicio24 /> },
+  ]
+
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-center justify-center">
+      {ejercicios.map(ej => (
+        <Card key={ej.id} id={ej.id} title={ej.title} Component={ej.component} />
+      ))}
+    </div>
+  );
 }
