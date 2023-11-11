@@ -5,12 +5,12 @@ y accede a sus propiedades en el componente.
 */
 
 export const ObjectEjercicio19 = () => {
-    // Escribe tu solución
-    
-    return (
-      <>
-        Escribe tu solución
-      </>
-    );
-  };
-  
+  // Escribe tu solución
+  const CONSTANT_OBJECT = { a: 1, b: 2 }
+  return (
+    <>
+      <p>{CONSTANT_OBJECT.a}, {CONSTANT_OBJECT.b}</p>
+    </>
+  );
+};
+

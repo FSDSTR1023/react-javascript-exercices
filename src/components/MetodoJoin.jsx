@@ -9,7 +9,7 @@ export const MetodoJoin = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      {palabras.join(' ')}
     </>
   );
 };

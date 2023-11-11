@@ -4,13 +4,17 @@ Crea un objeto y utiliza Object.entries() para renderizar una lista con las entr
 */
 
 export const ObjectEjercicio22 = () => {
-    // Escribe tu solución
-    
-    return (
-      <>
-        Escribe tu solución
-      </>
-    );
+  // Escribe tu solución
+  const persona = {
+    nombre: "Juan",
+    edad: 25,
+    ciudad: "Madrid"
   };
-  
+  return (
+    <>
+      <ul>{Object.entries(persona).map(([key, value], i) => <li key={i}>{key} : {value}</li>)}</ul>
+    </>
+  );
+};
+
 

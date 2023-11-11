@@ -5,12 +5,18 @@ y verifica si el objeto es modificable o no.
 */
 
 export const ObjectEjercicio23 = () => {
-    // Escribe tu solución
-    
-    return (
-      <>
-        Escribe tu solución
-      </>
-    );
+  // Escribe tu solución
+  const persona = {
+    nombre: "Juan",
+    edad: 25,
+    ciudad: "Madrid"
   };
+  Object.freeze(persona)
+  // persona.nombre = "Sonia"
+  return (
+    <>
+      {persona.nombre}
+    </>
+  );
+};
 

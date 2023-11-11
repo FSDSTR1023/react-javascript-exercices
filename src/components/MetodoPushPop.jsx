@@ -7,6 +7,8 @@ mostrando el resultado en una lista.
 
 export const MetodoPushPop = () => {
   const numeros = [1, 2, 3, 4];
+  numeros.push(5)
+  numeros.pop()
 
   // Agregar un elemento
   // Escribe código
@@ -16,7 +18,9 @@ export const MetodoPushPop = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {numeros.map((num, i) => <li key={i}>{num}</li>)}
+      </ul>
     </>
   );
 };

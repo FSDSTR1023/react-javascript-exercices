@@ -9,7 +9,9 @@ export const MetodoSlice = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {numeros.slice(2, 5).map((num, i) => <li key={i}>{num}</li>)}
+      </ul>
     </>
   );
 };

@@ -9,7 +9,7 @@ export const MetodoFind = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      {numeros.find((num) => num > 10)}
     </>
   );
 };

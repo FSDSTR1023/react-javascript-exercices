@@ -9,7 +9,9 @@ export const MetodoSplice = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+      <ul>
+        {numeros.splice(3, 2).map((num, i) => <li key={i}>{num}</li>)}
+      </ul>
     </>
   );
 };
