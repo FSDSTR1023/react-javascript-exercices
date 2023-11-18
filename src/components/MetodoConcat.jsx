@@ -8,9 +8,10 @@ export const MetodoConcat = () => {
   const arr1 = [1, 2, 3];
   const arr2 = [4, 5, 6];
 
+  const resultado = arr1.concat(arr2);
   return (
     <>
-      Escribe tu solución aquí
+    <p>Resultado : {resultado.join(', ')}</p>
     </>
   );
 };

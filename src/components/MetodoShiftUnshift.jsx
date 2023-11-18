@@ -9,14 +9,16 @@ export const MetodoShiftUnshift = () => {
   const numeros = [0, 1, 2, 3, 4];
 
   // Eliminar el primer elemento
-  // Escribe código
+  numeros.shift();
 
   // Agregar un elemento al inicio
-  // Escribe código
+  numeros.unshift(-1);
+
 
   return (
     <>
-      Escribe tu solución aquí
+    <h2>Array modificado:</h2>
+      {numeros.join(', ')} 
     </>
   );
 };

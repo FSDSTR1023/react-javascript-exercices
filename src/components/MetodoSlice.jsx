@@ -6,10 +6,11 @@ hasta el índice 5 utilizando el método slice().
 
 export const MetodoSlice = () => {
   const numeros = [0, 1, 2, 3, 4, 5, 6];
+  const elementosExtraidos = numeros.slice(2, 6);
 
   return (
     <>
-      Escribe tu solución aquí
+      {elementosExtraidos.join(', ')} 
     </>
   );
 };

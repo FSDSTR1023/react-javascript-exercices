@@ -9,7 +9,7 @@ export const MetodoSort = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+        {palabras.sort().join(', ')};
     </>
   );
 };

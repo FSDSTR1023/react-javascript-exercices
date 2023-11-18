@@ -9,14 +9,15 @@ export const MetodoPushPop = () => {
   const numeros = [1, 2, 3, 4];
 
   // Agregar un elemento
-  // Escribe código
+  numeros.push(6);
 
   // Eliminar el último elemento
-  // Escribe código
+  numeros.pop();
 
   return (
     <>
-      Escribe tu solución aquí
+      <h2>Array después de agregar y eliminar:</h2>
+      {numeros.join(', ')} 
     </>
   );
 };
