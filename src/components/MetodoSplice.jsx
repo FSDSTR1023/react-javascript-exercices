@@ -9,7 +9,7 @@ export const MetodoSplice = () => {
 
   return (
     <>
-      Escribe tu solución aquí
+    {numeros.splice(3, 2).join(', ')};
     </>
   );
 };
