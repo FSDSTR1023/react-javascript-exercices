@@ -9,9 +9,12 @@ export const MetodoConcat = () => {
   const arr2 = [4, 5, 6];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+<p> {arr1.concat(arr2).map( (num, index) => (
+<span key= {index} > {num} 
+</span>
+))}
+</p>
+
   );
 };
 

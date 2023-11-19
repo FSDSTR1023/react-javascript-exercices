@@ -8,9 +8,10 @@ export const MetodoSlice = () => {
   const numeros = [0, 1, 2, 3, 4, 5, 6];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+  <p> {numeros.slice (2, 5).map ((num, index) => (
+    <span key= {index} > {num}</span>
+    ))}
+  </p>
   );
 };
 

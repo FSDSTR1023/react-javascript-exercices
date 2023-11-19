@@ -8,8 +8,9 @@ export const MetodoFlat = () => {
   const arr = [[1, 2], [3, 4], [5, 6]];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+  <ol> {arr.flat().map((num, index) => (
+    <li key={index}>{num}</li>  
+  ))}
+  </ol>
   );
 };

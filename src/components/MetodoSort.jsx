@@ -5,12 +5,12 @@ utilizando el método sort().
 */
 
 export const MetodoSort = () => {
-  const palabras = ["Banana", "Apple", "Cherry"];
+  const palabras = ["Banana ", "Apple ", "Cherry"];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+<p> {palabras.sort().map( (palabra, index) => (
+  <span key={index}>{palabra}</span>
+  ))}
+  </p>
   );
 };
-

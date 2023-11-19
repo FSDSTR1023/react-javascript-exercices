@@ -5,11 +5,13 @@ almacenados en un array utilizando el método map()
 */
 
 export const MetodoMap = () => {
-  const amigos = ["Ana", "Carlos", "Elena"];
+  const amigos = ["Ana", "Carlos", "Elena",];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+<p> {amigos.map( (amigo, index) => (
+    <span key = {index}>{amigo}
+    </span>
+  ))}
+</p>
   );
 };

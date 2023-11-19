@@ -8,8 +8,7 @@ export const MetodoJoin = () => {
   const palabras = ["Hola", "Mundo"];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+  <p> {palabras.join(', ')
+  }</p>
   );
 };
