@@ -7,8 +7,7 @@ export const MetodoReduce = () => {
   const numeros = [1, 2, 3, 4, 5];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+  <p> {numeros.reduce( (acum, num) => acum + num, 0)
+    }</p>
   );
 };

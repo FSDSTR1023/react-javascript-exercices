@@ -8,8 +8,9 @@ export const MetodoFill = () => {
   const numeros = [0, 1, 2, 3, 4, 5];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+<p> {numeros.fill(0).map( (num, index) => (
+  <span key= {index} > {num} </span>
+  ))}
+</p>
   );
 };

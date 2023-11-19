@@ -8,9 +8,9 @@ export const MetodoSome = () => {
   const numeros = [5, 10, 15, 20];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+  <p> {numeros.some (num => num > 10) ? 
+  'Uno o más de los números sí son mayores que 10.' : 'Ninguno de los números es mayor que 10.'
+  }</p>
   );
 };
 

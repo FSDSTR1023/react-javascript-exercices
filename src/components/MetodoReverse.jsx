@@ -8,8 +8,10 @@ export const MetodoReverse = () => {
   const numeros = [0, 1, 2, 3, 4, 5, 6];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+<p> {numeros.reverse().map((num, index) => (
+<span key={index}>{num}</span>
+))}
+</p>
+
   );
 };

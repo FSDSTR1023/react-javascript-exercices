@@ -8,9 +8,7 @@ export const MetodoIndexOf = () => {
   const numeros = [1, 2, 3, 4, 5];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
-  );
-};
+  <p> {numeros.indexOf (5)
+  }</p>
+)};
 

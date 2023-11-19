@@ -10,13 +10,14 @@ export const MetodoPushPop = () => {
 
   // Agregar un elemento
   // Escribe código
-
+  numeros.push (5);
   // Eliminar el último elemento
   // Escribe código
-
+  numeros.pop ();
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+<p> {numeros.map((num, index) =>(
+    <span key = {index}>{num} </span>
+  ))}
+</p>
   );
 };

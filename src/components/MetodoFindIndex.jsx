@@ -8,8 +8,7 @@ export const MetodoFindIndex = () => {
   const numeros = [5, 10, 15, 20];
 
   return (
-    <>
-      Escribe tu solución aquí
-    </>
+<p> {numeros.findIndex (num => num > 10)
+  }</p>
   );
 };
