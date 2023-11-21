@@ -5,15 +5,15 @@ y renderiza cada propiedad en un componente.
 */
 
 export const ObjectEjercicio1 = () => {
-    const persona = {
-    nombre: "Juan",
-    edad: 25,
-    ciudad: "Madrid"
+    const person = {
+      nombre: "Pepe",
+      edad: 95,
+      ciudad: "Pangea"
     };
   
     return (
       <>
-        <p>{persona.nombre}, {persona.edad}, {persona.ciudad}</p>
+        <p>{person.nombre}, {person.edad}, {person.ciudad}</p>
       </>
     );
   };

@@ -6,10 +6,19 @@ una lista de una propiedad específica.
 
 export const ObjectEjercicio7 = () => {
     // Escribe tu solución
-    
+    const users = [
+      { name: 'Luis' } ,
+      { name: 'Juana' },
+      { name: 'Leroy' }
+    ];
+
     return (
       <>
-        Escribe tu solución
+        <ul>
+          {users.map((value, i) => (
+            <li key={i}>{value.name}</li>
+          ))}
+        </ul>
       </>
     );
   };

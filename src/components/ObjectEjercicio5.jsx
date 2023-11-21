@@ -6,10 +6,18 @@ accede a una propiedad anidada.
 
 export const ObjectEjercicio5 = () => {
     // Escribe tu solución
-    
+    const list = {
+      a: 1,
+      b: {
+        c: 3,
+        d: 4
+      },
+    };
+
+
     return (
       <>
-        Escribe tu solución
+        <p>{list.b.c}</p>
       </>
     );
   };
