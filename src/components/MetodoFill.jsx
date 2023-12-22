@@ -7,9 +7,11 @@ muestra el resultado utilizando el método fill().
 export const MetodoFill = () => {
   const numeros = [0, 1, 2, 3, 4, 5];
 
+const arrayRelleando = numeros.fill(0)
+
   return (
     <>
-      Escribe tu solución aquí
+     El array {arrayRelleando.join(', ')}
     </>
   );
 };

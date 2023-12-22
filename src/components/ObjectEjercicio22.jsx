@@ -4,11 +4,20 @@ Crea un objeto y utiliza Object.entries() para renderizar una lista con las entr
 */
 
 export const ObjectEjercicio22 = () => {
-    // Escribe tu solución
+      const miObjeto = {
+    propiedad1: "valor1",
+    propiedad2: "valor2",
+    propiedad3: "valor3"
+  };
     
+  const entradasObjeto = Object.entries(miObjeto);
     return (
       <>
-        Escribe tu solución
+        <ul>
+        {entradasObjeto.map(([clave, valor]) => (
+          <li key={clave}>{`${clave}: ${valor}`}</li>
+        ))}
+      </ul>
       </>
     );
   };

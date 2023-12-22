@@ -7,9 +7,15 @@ almacenados en un array utilizando el método map()
 export const MetodoMap = () => {
   const amigos = ["Ana", "Carlos", "Elena"];
 
+  const listaAmigos =amigos.map((amigo, index) => (
+    <li key={index}>{amigo}</li>
+  ))
+  
   return (
     <>
-      Escribe tu solución aquí
+      <lu>
+        {listaAmigos}
+      </lu>
     </>
   );
 };

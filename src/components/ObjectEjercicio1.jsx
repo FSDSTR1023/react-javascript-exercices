@@ -6,9 +6,9 @@ y renderiza cada propiedad en un componente.
 
 export const ObjectEjercicio1 = () => {
     const persona = {
-    nombre: "Juan",
-    edad: 25,
-    ciudad: "Madrid"
+    nombre: "Alcedo",
+    edad: 24,
+    ciudad: "Bilbao"
     };
   
     return (

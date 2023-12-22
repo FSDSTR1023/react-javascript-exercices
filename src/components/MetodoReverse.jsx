@@ -7,9 +7,12 @@ muestra el array modificado utilizando el método reverse().
 export const MetodoReverse = () => {
   const numeros = [0, 1, 2, 3, 4, 5, 6];
 
+  numeros.splice(3,2)
+
+  const arrayModificado = numeros.reverse ();
   return (
     <>
-      Escribe tu solución aquí
+      Array modificado: {arrayModificado.join(', ')}
     </>
   );
 };

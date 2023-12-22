@@ -7,9 +7,15 @@ utilizando el método sort().
 export const MetodoSort = () => {
   const palabras = ["Banana", "Apple", "Cherry"];
 
+ const palabrasOrdenadas = palabras.sort()
+
   return (
     <>
-      Escribe tu solución aquí
+       <ul>
+        {palabrasOrdenadas.map((palabra, index) => (
+          <li key={index}>{palabra}</li>
+        ))}
+      </ul>
     </>
   );
 };

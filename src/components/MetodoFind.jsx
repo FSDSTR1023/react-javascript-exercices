@@ -7,9 +7,10 @@ utilizando el método find().
 export const MetodoFind = () => {
   const numeros = [5, 10, 15, 20];
 
+  const primerNumeroMayorQue10 = numeros.find ((numero) => numero >10)
   return (
     <>
-      Escribe tu solución aquí
+     Erste Zahl größer als 10 : {primerNumeroMayorQue10 || 'No encontrado'}
     </>
   );
 };

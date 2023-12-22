@@ -4,11 +4,16 @@ Crea un objeto con un método y llama a ese método en un componente.
 */
 
 export const ObjectEjercicio20 = () => {
-    // Escribe tu solución
+  const MyObjeto = {
+    saludar: function(){
+      return "Hola, soy el componente.";
+    }
+  };
     
+  const mensajeSaludo = MyObjeto.saludar()
     return (
       <>
-        Escribe tu solución
+        <p>{mensajeSaludo}</p>
       </>
     );
   };

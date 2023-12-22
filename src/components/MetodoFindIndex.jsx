@@ -7,9 +7,12 @@ en un array utilizando el método findIndex().
 export const MetodoFindIndex = () => {
   const numeros = [5, 10, 15, 20];
 
+  const indicePrimerNumeroMayorQue10 = numeros.findIndex((numero) => numero > 10)
+
   return (
     <>
-      Escribe tu solución aquí
+       Índice del primer número mayor que 10: {indicePrimerNumeroMayorQue10 !== -1 ? indicePrimerNumeroMayorQue10 : 'No encontrado'}
+    
     </>
   );
 };

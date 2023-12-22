@@ -7,9 +7,10 @@ de un array utilizando el método filter()
 export const MetodoFilter = () => {
   const numeros = [1, 2, 3, 4, 5];
 
+  const numerosFiltrados = numeros.filter((numero) => numero > 2)
   return (
     <>
-      Escribe tu solución aquí
+      Numbers that are greater than 2 :{numerosFiltrados.join(', ')}
     </>
   );
 };

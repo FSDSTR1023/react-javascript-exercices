@@ -5,11 +5,18 @@ y verifica si puedes agregar una nueva propiedad o no.
 */
 
 export const ObjectEjercicio24 = () => {
-    // Escribe tu solución
-    
+    const MyObject = {
+      propiedad1: "1299€",
+      propiedad2: "789€"
+    }
+
+  Object.seal(MyObject)
+
+  MyObject.nuevaPropiedad ="17000€"
     return (
       <>
-        Escribe tu solución
+        <p>Object : {JSON.stringify(MyObject)}</p>
+        <P>Nueva propiedad {MyObject.hasOwnProperty("nuevaPropiedad") ?"Si" : "No"}</P>
       </>
     );
   };

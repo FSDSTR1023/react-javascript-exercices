@@ -7,9 +7,11 @@ separados por comas utilizando el método join().
 export const MetodoJoin = () => {
   const palabras = ["Hola", "Mundo"];
 
+  const cadena = palabras.join(', ')
+  
   return (
     <>
-      Escribe tu solución aquí
+    <p>{cadena}</p>   
     </>
   );
 };

@@ -4,11 +4,21 @@ Crea un objeto y utiliza Object.values() para renderizar una lista con los valor
 */
 
 export const ObjectEjercicio21 = () => {
-    // Escribe tu solución
+      const miObjeto = {
+    propiedad1: "valor1",
+    propiedad2: "valor2",
+    propiedad3: "valor3"
+  };
+   
+  const valoresObjeto = Object.values(miObjeto)
     
-    return (
+  return (
       <>
-        Escribe tu solución
+      <ul>
+        {valoresObjeto.map((valor, index) => (
+          <li key={index}>{valor}</li>
+        ))}
+      </ul>
       </>
     );
   };

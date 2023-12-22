@@ -8,15 +8,14 @@ mostrando el resultado en una lista.
 export const MetodoPushPop = () => {
   const numeros = [1, 2, 3, 4];
 
-  // Agregar un elemento
-  // Escribe código
+  const agregar = 5
+  numeros.push(agregar)
 
-  // Eliminar el último elemento
-  // Escribe código
-
+  const Eliminar= numeros.pop()
   return (
     <>
-      Escribe tu solución aquí
+      <p>Elemento agreagado con push(): {numeros.join(', ')}</p>
+      <p>Subject terminated with pop(): {Eliminar}</p>
     </>
   );
 };
